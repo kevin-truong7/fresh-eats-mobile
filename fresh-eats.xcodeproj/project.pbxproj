@@ -13,6 +13,11 @@
 		0A6823CA28B4256F00109305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6823C828B4256F00109305 /* Main.storyboard */; };
 		0A6823CC28B4257200109305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6823CB28B4257200109305 /* Assets.xcassets */; };
 		0A6823CF28B4257200109305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6823CD28B4257200109305 /* LaunchScreen.storyboard */; };
+		0A8F015428C0199600F79328 /* RestaurantContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F015328C0199600F79328 /* RestaurantContent.swift */; };
+		0AC6B5DB28CD1E65002CB32E /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6B5D928CD1E50002CB32E /* icons.json */; };
+		0AC6B5DC28CD1E6A002CB32E /* Font Awesome 6 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6B5DA28CD1E50002CB32E /* Font Awesome 6 Free-Solid-900.otf */; };
+		0AC6B5DD28CD1E6A002CB32E /* Font Awesome 6 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6B5D728CD1E50002CB32E /* Font Awesome 6 Brands-Regular-400.otf */; };
+		0AC6B5DE28CD1E6A002CB32E /* Font Awesome 6 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6B5D828CD1E50002CB32E /* Font Awesome 6 Free-Regular-400.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		0A6823CB28B4257200109305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A6823CE28B4257200109305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A6823D028B4257200109305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8F015328C0199600F79328 /* RestaurantContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantContent.swift; sourceTree = "<group>"; };
+		0AC6B5D728CD1E50002CB32E /* Font Awesome 6 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		0AC6B5D828CD1E50002CB32E /* Font Awesome 6 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		0AC6B5D928CD1E50002CB32E /* icons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = icons.json; sourceTree = "<group>"; };
+		0AC6B5DA28CD1E50002CB32E /* Font Awesome 6 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Free-Solid-900.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +69,25 @@
 				0A6823C228B4256F00109305 /* AppDelegate.swift */,
 				0A6823C428B4256F00109305 /* SceneDelegate.swift */,
 				0A6823C628B4256F00109305 /* ViewController.swift */,
+				0A8F015328C0199600F79328 /* RestaurantContent.swift */,
 				0A6823C828B4256F00109305 /* Main.storyboard */,
 				0A6823CB28B4257200109305 /* Assets.xcassets */,
 				0A6823CD28B4257200109305 /* LaunchScreen.storyboard */,
 				0A6823D028B4257200109305 /* Info.plist */,
+				0AC6B5DF28CD54E7002CB32E /* fonts */,
 			);
 			path = "fresh-eats";
+			sourceTree = "<group>";
+		};
+		0AC6B5DF28CD54E7002CB32E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0AC6B5D928CD1E50002CB32E /* icons.json */,
+				0AC6B5D728CD1E50002CB32E /* Font Awesome 6 Brands-Regular-400.otf */,
+				0AC6B5D828CD1E50002CB32E /* Font Awesome 6 Free-Regular-400.otf */,
+				0AC6B5DA28CD1E50002CB32E /* Font Awesome 6 Free-Solid-900.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +106,8 @@
 			dependencies = (
 			);
 			name = "fresh-eats";
+			packageProductDependencies = (
+			);
 			productName = "fresh-eats";
 			productReference = 0A6823BF28B4256F00109305 /* fresh-eats.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +136,8 @@
 				Base,
 			);
 			mainGroup = 0A6823B628B4256F00109305;
+			packageReferences = (
+			);
 			productRefGroup = 0A6823C028B4256F00109305 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +152,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC6B5DD28CD1E6A002CB32E /* Font Awesome 6 Brands-Regular-400.otf in Resources */,
 				0A6823CF28B4257200109305 /* LaunchScreen.storyboard in Resources */,
 				0A6823CC28B4257200109305 /* Assets.xcassets in Resources */,
+				0AC6B5DC28CD1E6A002CB32E /* Font Awesome 6 Free-Solid-900.otf in Resources */,
 				0A6823CA28B4256F00109305 /* Main.storyboard in Resources */,
+				0AC6B5DB28CD1E65002CB32E /* icons.json in Resources */,
+				0AC6B5DE28CD1E6A002CB32E /* Font Awesome 6 Free-Regular-400.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +171,7 @@
 			files = (
 				0A6823C728B4256F00109305 /* ViewController.swift in Sources */,
 				0A6823C328B4256F00109305 /* AppDelegate.swift in Sources */,
+				0A8F015428C0199600F79328 /* RestaurantContent.swift in Sources */,
 				0A6823C528B4256F00109305 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DG8PM3987A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "fresh-eats/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DG8PM3987A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "fresh-eats/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
