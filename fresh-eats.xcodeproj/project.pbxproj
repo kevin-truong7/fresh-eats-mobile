@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A472C2A2974DAE1001C90B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A472C292974DAE1001C90B8 /* GoogleService-Info.plist */; };
+		0A472C2D2974F507001C90B8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0A472C2C2974F507001C90B8 /* FirebaseAnalytics */; };
+		0A472C2F2974F507001C90B8 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0A472C2E2974F507001C90B8 /* FirebaseAnalyticsSwift */; };
 		0A6823C328B4256F00109305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6823C228B4256F00109305 /* AppDelegate.swift */; };
 		0A6823C528B4256F00109305 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6823C428B4256F00109305 /* SceneDelegate.swift */; };
 		0A6823C728B4256F00109305 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6823C628B4256F00109305 /* ViewController.swift */; };
@@ -18,9 +21,11 @@
 		0AC6B5DC28CD1E6A002CB32E /* Font Awesome 6 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6B5DA28CD1E50002CB32E /* Font Awesome 6 Free-Solid-900.otf */; };
 		0AC6B5DD28CD1E6A002CB32E /* Font Awesome 6 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6B5D728CD1E50002CB32E /* Font Awesome 6 Brands-Regular-400.otf */; };
 		0AC6B5DE28CD1E6A002CB32E /* Font Awesome 6 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6B5D828CD1E50002CB32E /* Font Awesome 6 Free-Regular-400.otf */; };
+		0AD841322977659C0021B111 /* useful-space-374315-12c165bc146a.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD841312977659C0021B111 /* useful-space-374315-12c165bc146a.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A472C292974DAE1001C90B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A6823BF28B4256F00109305 /* fresh-eats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fresh-eats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6823C228B4256F00109305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A6823C428B4256F00109305 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		0AC6B5D828CD1E50002CB32E /* Font Awesome 6 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Free-Regular-400.otf"; sourceTree = "<group>"; };
 		0AC6B5D928CD1E50002CB32E /* icons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = icons.json; sourceTree = "<group>"; };
 		0AC6B5DA28CD1E50002CB32E /* Font Awesome 6 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		0AD841312977659C0021B111 /* useful-space-374315-12c165bc146a.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "useful-space-374315-12c165bc146a.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A472C2F2974F507001C90B8 /* FirebaseAnalyticsSwift in Frameworks */,
+				0A472C2D2974F507001C90B8 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,8 @@
 				0A6823CB28B4257200109305 /* Assets.xcassets */,
 				0A6823CD28B4257200109305 /* LaunchScreen.storyboard */,
 				0A6823D028B4257200109305 /* Info.plist */,
+				0A472C292974DAE1001C90B8 /* GoogleService-Info.plist */,
+				0AD841312977659C0021B111 /* useful-space-374315-12c165bc146a.json */,
 				0AC6B5DF28CD54E7002CB32E /* fonts */,
 			);
 			path = "fresh-eats";
@@ -107,6 +117,8 @@
 			);
 			name = "fresh-eats";
 			packageProductDependencies = (
+				0A472C2C2974F507001C90B8 /* FirebaseAnalytics */,
+				0A472C2E2974F507001C90B8 /* FirebaseAnalyticsSwift */,
 			);
 			productName = "fresh-eats";
 			productReference = 0A6823BF28B4256F00109305 /* fresh-eats.app */;
@@ -137,6 +149,7 @@
 			);
 			mainGroup = 0A6823B628B4256F00109305;
 			packageReferences = (
+				0A472C2B2974F507001C90B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 0A6823C028B4256F00109305 /* Products */;
 			projectDirPath = "";
@@ -153,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AC6B5DD28CD1E6A002CB32E /* Font Awesome 6 Brands-Regular-400.otf in Resources */,
+				0AD841322977659C0021B111 /* useful-space-374315-12c165bc146a.json in Resources */,
+				0A472C2A2974DAE1001C90B8 /* GoogleService-Info.plist in Resources */,
 				0A6823CF28B4257200109305 /* LaunchScreen.storyboard in Resources */,
 				0A6823CC28B4257200109305 /* Assets.xcassets in Resources */,
 				0AC6B5DC28CD1E6A002CB32E /* Font Awesome 6 Free-Solid-900.otf in Resources */,
@@ -390,6 +405,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A472C2B2974F507001C90B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A472C2C2974F507001C90B8 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A472C2B2974F507001C90B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0A472C2E2974F507001C90B8 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A472C2B2974F507001C90B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0A6823B728B4256F00109305 /* Project object */;
 }

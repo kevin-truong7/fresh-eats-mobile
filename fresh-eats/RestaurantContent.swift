@@ -6,7 +6,10 @@
 //
 
 import SwiftUI
-//import FASwiftUI
+// import FASwiftUI
+// import FirebaseCore
+// need to install specific sdk file using podfile for import below to work
+// import GoogleCloudStorage
 
 extension UIView {
     var globalFrame: CGRect? {
@@ -20,7 +23,8 @@ struct Restaurant: Hashable {
 }
 
 struct RestaurantContent: View {
-   
+    // firebase code
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     init() {
         UINavigationBar.appearance().barTintColor = .systemBackground
     }
