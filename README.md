@@ -6,7 +6,7 @@ This ios app provides a layout for displaying restuarants arranged into categori
 
 - Designed with Swift UI Kit and Storyboard
 - Presents restaurants in categories using mock data and mapping
-- Scaling functionality to increase size of restaurant of interest
+- Created a scaling effect on restaurants that applies when a restaurant is point of focus
 - Implemented bottom tab bar for navigation throughout app
 - Restaurants are clickable to provide further navigation into basic menu
 
